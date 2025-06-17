@@ -11,8 +11,7 @@ await bot.init();
 bot.command("start", async (ctx) => {
   const keyboard = {
     inline_keyboard: [
-      // [{ text: "🔘 Start GAME 🤖", web_app: { url: "https://minddgame.vercel.app/" } }],  // 게임 링크 수정
-      [{ text: "🔘 Launch Your First AI Agent 🧠", url: "https://www.rev-x.xyz" }],
+      [{ text: "🔘 Launch Your First AI Agent 🚀", web_app: { url: "https://revx-theta.vercel.app" } }],  // 게임 링크 수정
       [{ text: "🔘 Follow on X 🐦", url: "https://x.com/RevX_officialX" }],
       [{ text: "🔘 Join Telegram Chat 💬", url: "https://t.me/RevX_official" }],
       [{ text: "🔘 Visit Website 🌐", url: "https://www.rev-x.xyz" }],
